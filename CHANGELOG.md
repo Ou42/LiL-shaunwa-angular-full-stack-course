@@ -16,11 +16,19 @@
 
 ### Routes and routing in Angular
 
-- created a "/listings" route path
+- created a '/listings' route path
 - `ng generate component ...`
   - `listing-detail-page`
   - `contact-page`
   - `my-listings-page`
   - `new-listing-page`
   - `edit-listing-page`
+- created a 'listings/:id' route path
+- created a 'contact/:id' route path
+- created a 'edit-listing/:id' route path
+- created a 'my-listings' route path
+- created a 'new-listing' route path
+- created a redirect for '' to '/listings'
+- `pathMatch: 'full'` req for exact path matches
+
   
